@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBFB1EAB1878A92600E2781A /* NaiveActivationVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E701878A92500E2781A /* NaiveActivationVisitor.h */; };
+		EBFB1EAC1878A92600E2781A /* NaiveAlphaHashNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E711878A92500E2781A /* NaiveAlphaHashNetwork.h */; };
+		EBFB1EAD1878A92600E2781A /* NaiveAlphaMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E721878A92500E2781A /* NaiveAlphaMemory.h */; };
+		EBFB1EAE1878A92600E2781A /* NaiveAlphaNetworkFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E731878A92500E2781A /* NaiveAlphaNetworkFactory.h */; };
+		EBFB1EAF1878A92600E2781A /* NaiveAlphaNodeTest.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E741878A92500E2781A /* NaiveAlphaNodeTest.h */; };
+		EBFB1EB01878A92600E2781A /* NaiveBetaMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E751878A92500E2781A /* NaiveBetaMemory.h */; };
+		EBFB1EB11878A92600E2781A /* NaiveCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E761878A92500E2781A /* NaiveCondition.h */; };
+		EBFB1EB21878A92600E2781A /* NaiveJoinNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E771878A92500E2781A /* NaiveJoinNode.h */; };
+		EBFB1EB31878A92600E2781A /* NaiveJoinNodeTest.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E781878A92500E2781A /* NaiveJoinNodeTest.h */; };
+		EBFB1EB41878A92600E2781A /* NaiveProductionModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E791878A92500E2781A /* NaiveProductionModifier.h */; };
+		EBFB1EB51878A92600E2781A /* NaiveProductionNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E7A1878A92500E2781A /* NaiveProductionNode.h */; };
+		EBFB1EB61878A92600E2781A /* NaiveReteController.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E7B1878A92500E2781A /* NaiveReteController.h */; };
+		EBFB1EB71878A92600E2781A /* NaiveToken.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E7C1878A92500E2781A /* NaiveToken.h */; };
+		EBFB1EB81878A92600E2781A /* NaiveTokenFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E7D1878A92500E2781A /* NaiveTokenFactory.h */; };
+		EBFB1EB91878A92600E2781A /* NaiveTraverser.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E7E1878A92500E2781A /* NaiveTraverser.h */; };
+		EBFB1EBA1878A92600E2781A /* NaiveWME.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E7F1878A92500E2781A /* NaiveWME.h */; };
+		EBFB1EBB1878A92600E2781A /* Triple.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E801878A92500E2781A /* Triple.h */; };
+		EBFB1EBC1878A92600E2781A /* IActivationVisitee.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E821878A92600E2781A /* IActivationVisitee.h */; };
+		EBFB1EBD1878A92600E2781A /* IActivationVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E831878A92600E2781A /* IActivationVisitor.h */; };
+		EBFB1EBE1878A92600E2781A /* IAlphaHashNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E841878A92600E2781A /* IAlphaHashNetwork.h */; };
+		EBFB1EBF1878A92600E2781A /* IAlphaMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E851878A92600E2781A /* IAlphaMemory.h */; };
+		EBFB1EC01878A92600E2781A /* IAlphaNetworkFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E861878A92600E2781A /* IAlphaNetworkFactory.h */; };
+		EBFB1EC11878A92600E2781A /* IAlphaNodeTest.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E871878A92600E2781A /* IAlphaNodeTest.h */; };
+		EBFB1EC21878A92600E2781A /* IBetaMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E881878A92600E2781A /* IBetaMemory.h */; };
+		EBFB1EC31878A92600E2781A /* ICondition.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E891878A92600E2781A /* ICondition.h */; };
+		EBFB1EC41878A92600E2781A /* IJoinNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E8A1878A92600E2781A /* IJoinNode.h */; };
+		EBFB1EC51878A92600E2781A /* IJoinNodeTest.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E8B1878A92600E2781A /* IJoinNodeTest.h */; };
+		EBFB1EC61878A92600E2781A /* IProductionModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E8C1878A92600E2781A /* IProductionModifier.h */; };
+		EBFB1EC71878A92600E2781A /* IProductionNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E8D1878A92600E2781A /* IProductionNode.h */; };
+		EBFB1EC81878A92600E2781A /* IReteMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E8E1878A92600E2781A /* IReteMemory.h */; };
+		EBFB1EC91878A92600E2781A /* IToken.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E8F1878A92600E2781A /* IToken.h */; };
+		EBFB1ECA1878A92600E2781A /* ITokenFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E901878A92600E2781A /* ITokenFactory.h */; };
+		EBFB1ECB1878A92600E2781A /* ITuple.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E911878A92600E2781A /* ITuple.h */; };
+		EBFB1ECC1878A92600E2781A /* ITupleTraversee.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E921878A92600E2781A /* ITupleTraversee.h */; };
+		EBFB1ECD1878A92600E2781A /* ITupleTraverser.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E931878A92600E2781A /* ITupleTraverser.h */; };
+		EBFB1ECE1878A92600E2781A /* IWME.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E941878A92600E2781A /* IWME.h */; };
+		EBFB1ECF1878A92600E2781A /* ExportedFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E961878A92600E2781A /* ExportedFunctions.h */; };
+		EBFB1ED01878A92600E2781A /* IProductionSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E971878A92600E2781A /* IProductionSubscriber.h */; };
+		EBFB1ED11878A92600E2781A /* IReteController.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1E981878A92600E2781A /* IReteController.h */; };
+		EBFB1ED21878A92600E2781A /* NaiveActivationVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1E9A1878A92600E2781A /* NaiveActivationVisitor.cpp */; };
+		EBFB1ED31878A92600E2781A /* NaiveAlphaHashNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1E9B1878A92600E2781A /* NaiveAlphaHashNetwork.cpp */; };
+		EBFB1ED41878A92600E2781A /* NaiveAlphaMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1E9C1878A92600E2781A /* NaiveAlphaMemory.cpp */; };
+		EBFB1ED51878A92600E2781A /* NaiveAlphaNetworkFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1E9D1878A92600E2781A /* NaiveAlphaNetworkFactory.cpp */; };
+		EBFB1ED61878A92600E2781A /* NaiveAlphaNodeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1E9E1878A92600E2781A /* NaiveAlphaNodeTest.cpp */; };
+		EBFB1ED71878A92600E2781A /* NaiveBetaMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1E9F1878A92600E2781A /* NaiveBetaMemory.cpp */; };
+		EBFB1ED81878A92600E2781A /* NaiveCondition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EA01878A92600E2781A /* NaiveCondition.cpp */; };
+		EBFB1ED91878A92600E2781A /* NaiveJoinNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EA11878A92600E2781A /* NaiveJoinNode.cpp */; };
+		EBFB1EDA1878A92600E2781A /* NaiveJoinNodeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EA21878A92600E2781A /* NaiveJoinNodeTest.cpp */; };
+		EBFB1EDB1878A92600E2781A /* NaiveProductionModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EA31878A92600E2781A /* NaiveProductionModifier.cpp */; };
+		EBFB1EDC1878A92600E2781A /* NaiveProductionNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EA41878A92600E2781A /* NaiveProductionNode.cpp */; };
+		EBFB1EDD1878A92600E2781A /* NaiveReteController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EA51878A92600E2781A /* NaiveReteController.cpp */; };
+		EBFB1EDE1878A92600E2781A /* NaiveToken.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EA61878A92600E2781A /* NaiveToken.cpp */; };
+		EBFB1EDF1878A92600E2781A /* NaiveTokenFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EA71878A92600E2781A /* NaiveTokenFactory.cpp */; };
+		EBFB1EE01878A92600E2781A /* NaiveTraverser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EA81878A92600E2781A /* NaiveTraverser.cpp */; };
+		EBFB1EE11878A92600E2781A /* NaiveWME.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EA91878A92600E2781A /* NaiveWME.cpp */; };
+		EBFB1EE21878A92600E2781A /* Triple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBFB1EAA1878A92600E2781A /* Triple.cpp */; };
+		EBFB1EE41878A99C00E2781A /* Namespaces.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFB1EE31878A99C00E2781A /* Namespaces.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBFB1E681878A82F00E2781A /* libCPeteRete-Alpha.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libCPeteRete-Alpha.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFB1E701878A92500E2781A /* NaiveActivationVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveActivationVisitor.h; sourceTree = "<group>"; };
+		EBFB1E711878A92500E2781A /* NaiveAlphaHashNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveAlphaHashNetwork.h; sourceTree = "<group>"; };
+		EBFB1E721878A92500E2781A /* NaiveAlphaMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveAlphaMemory.h; sourceTree = "<group>"; };
+		EBFB1E731878A92500E2781A /* NaiveAlphaNetworkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveAlphaNetworkFactory.h; sourceTree = "<group>"; };
+		EBFB1E741878A92500E2781A /* NaiveAlphaNodeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveAlphaNodeTest.h; sourceTree = "<group>"; };
+		EBFB1E751878A92500E2781A /* NaiveBetaMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveBetaMemory.h; sourceTree = "<group>"; };
+		EBFB1E761878A92500E2781A /* NaiveCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveCondition.h; sourceTree = "<group>"; };
+		EBFB1E771878A92500E2781A /* NaiveJoinNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveJoinNode.h; sourceTree = "<group>"; };
+		EBFB1E781878A92500E2781A /* NaiveJoinNodeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveJoinNodeTest.h; sourceTree = "<group>"; };
+		EBFB1E791878A92500E2781A /* NaiveProductionModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveProductionModifier.h; sourceTree = "<group>"; };
+		EBFB1E7A1878A92500E2781A /* NaiveProductionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveProductionNode.h; sourceTree = "<group>"; };
+		EBFB1E7B1878A92500E2781A /* NaiveReteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveReteController.h; sourceTree = "<group>"; };
+		EBFB1E7C1878A92500E2781A /* NaiveToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveToken.h; sourceTree = "<group>"; };
+		EBFB1E7D1878A92500E2781A /* NaiveTokenFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveTokenFactory.h; sourceTree = "<group>"; };
+		EBFB1E7E1878A92500E2781A /* NaiveTraverser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveTraverser.h; sourceTree = "<group>"; };
+		EBFB1E7F1878A92500E2781A /* NaiveWME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveWME.h; sourceTree = "<group>"; };
+		EBFB1E801878A92500E2781A /* Triple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triple.h; sourceTree = "<group>"; };
+		EBFB1E821878A92600E2781A /* IActivationVisitee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IActivationVisitee.h; sourceTree = "<group>"; };
+		EBFB1E831878A92600E2781A /* IActivationVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IActivationVisitor.h; sourceTree = "<group>"; };
+		EBFB1E841878A92600E2781A /* IAlphaHashNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAlphaHashNetwork.h; sourceTree = "<group>"; };
+		EBFB1E851878A92600E2781A /* IAlphaMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAlphaMemory.h; sourceTree = "<group>"; };
+		EBFB1E861878A92600E2781A /* IAlphaNetworkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAlphaNetworkFactory.h; sourceTree = "<group>"; };
+		EBFB1E871878A92600E2781A /* IAlphaNodeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAlphaNodeTest.h; sourceTree = "<group>"; };
+		EBFB1E881878A92600E2781A /* IBetaMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBetaMemory.h; sourceTree = "<group>"; };
+		EBFB1E891878A92600E2781A /* ICondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICondition.h; sourceTree = "<group>"; };
+		EBFB1E8A1878A92600E2781A /* IJoinNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJoinNode.h; sourceTree = "<group>"; };
+		EBFB1E8B1878A92600E2781A /* IJoinNodeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJoinNodeTest.h; sourceTree = "<group>"; };
+		EBFB1E8C1878A92600E2781A /* IProductionModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IProductionModifier.h; sourceTree = "<group>"; };
+		EBFB1E8D1878A92600E2781A /* IProductionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IProductionNode.h; sourceTree = "<group>"; };
+		EBFB1E8E1878A92600E2781A /* IReteMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IReteMemory.h; sourceTree = "<group>"; };
+		EBFB1E8F1878A92600E2781A /* IToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IToken.h; sourceTree = "<group>"; };
+		EBFB1E901878A92600E2781A /* ITokenFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITokenFactory.h; sourceTree = "<group>"; };
+		EBFB1E911878A92600E2781A /* ITuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITuple.h; sourceTree = "<group>"; };
+		EBFB1E921878A92600E2781A /* ITupleTraversee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITupleTraversee.h; sourceTree = "<group>"; };
+		EBFB1E931878A92600E2781A /* ITupleTraverser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITupleTraverser.h; sourceTree = "<group>"; };
+		EBFB1E941878A92600E2781A /* IWME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWME.h; sourceTree = "<group>"; };
+		EBFB1E961878A92600E2781A /* ExportedFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportedFunctions.h; sourceTree = "<group>"; };
+		EBFB1E971878A92600E2781A /* IProductionSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IProductionSubscriber.h; sourceTree = "<group>"; };
+		EBFB1E981878A92600E2781A /* IReteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IReteController.h; sourceTree = "<group>"; };
+		EBFB1E9A1878A92600E2781A /* NaiveActivationVisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveActivationVisitor.cpp; sourceTree = "<group>"; };
+		EBFB1E9B1878A92600E2781A /* NaiveAlphaHashNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveAlphaHashNetwork.cpp; sourceTree = "<group>"; };
+		EBFB1E9C1878A92600E2781A /* NaiveAlphaMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveAlphaMemory.cpp; sourceTree = "<group>"; };
+		EBFB1E9D1878A92600E2781A /* NaiveAlphaNetworkFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveAlphaNetworkFactory.cpp; sourceTree = "<group>"; };
+		EBFB1E9E1878A92600E2781A /* NaiveAlphaNodeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveAlphaNodeTest.cpp; sourceTree = "<group>"; };
+		EBFB1E9F1878A92600E2781A /* NaiveBetaMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveBetaMemory.cpp; sourceTree = "<group>"; };
+		EBFB1EA01878A92600E2781A /* NaiveCondition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveCondition.cpp; sourceTree = "<group>"; };
+		EBFB1EA11878A92600E2781A /* NaiveJoinNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveJoinNode.cpp; sourceTree = "<group>"; };
+		EBFB1EA21878A92600E2781A /* NaiveJoinNodeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveJoinNodeTest.cpp; sourceTree = "<group>"; };
+		EBFB1EA31878A92600E2781A /* NaiveProductionModifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveProductionModifier.cpp; sourceTree = "<group>"; };
+		EBFB1EA41878A92600E2781A /* NaiveProductionNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveProductionNode.cpp; sourceTree = "<group>"; };
+		EBFB1EA51878A92600E2781A /* NaiveReteController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveReteController.cpp; sourceTree = "<group>"; };
+		EBFB1EA61878A92600E2781A /* NaiveToken.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveToken.cpp; sourceTree = "<group>"; };
+		EBFB1EA71878A92600E2781A /* NaiveTokenFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveTokenFactory.cpp; sourceTree = "<group>"; };
+		EBFB1EA81878A92600E2781A /* NaiveTraverser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveTraverser.cpp; sourceTree = "<group>"; };
+		EBFB1EA91878A92600E2781A /* NaiveWME.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveWME.cpp; sourceTree = "<group>"; };
+		EBFB1EAA1878A92600E2781A /* Triple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triple.cpp; sourceTree = "<group>"; };
+		EBFB1EE31878A99C00E2781A /* Namespaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Namespaces.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBFB1E651878A82F00E2781A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBFB1E5F1878A82F00E2781A = {
+			isa = PBXGroup;
+			children = (
+				EBFB1EE31878A99C00E2781A /* Namespaces.h */,
+				EBFB1E6F1878A92500E2781A /* Headers */,
+				EBFB1E811878A92500E2781A /* Private Interfaces */,
+				EBFB1E951878A92600E2781A /* Public Interfaces */,
+				EBFB1E991878A92600E2781A /* Sources */,
+				EBFB1E691878A82F00E2781A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBFB1E691878A82F00E2781A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB1E681878A82F00E2781A /* libCPeteRete-Alpha.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBFB1E6F1878A92500E2781A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB1E701878A92500E2781A /* NaiveActivationVisitor.h */,
+				EBFB1E711878A92500E2781A /* NaiveAlphaHashNetwork.h */,
+				EBFB1E721878A92500E2781A /* NaiveAlphaMemory.h */,
+				EBFB1E731878A92500E2781A /* NaiveAlphaNetworkFactory.h */,
+				EBFB1E741878A92500E2781A /* NaiveAlphaNodeTest.h */,
+				EBFB1E751878A92500E2781A /* NaiveBetaMemory.h */,
+				EBFB1E761878A92500E2781A /* NaiveCondition.h */,
+				EBFB1E771878A92500E2781A /* NaiveJoinNode.h */,
+				EBFB1E781878A92500E2781A /* NaiveJoinNodeTest.h */,
+				EBFB1E791878A92500E2781A /* NaiveProductionModifier.h */,
+				EBFB1E7A1878A92500E2781A /* NaiveProductionNode.h */,
+				EBFB1E7B1878A92500E2781A /* NaiveReteController.h */,
+				EBFB1E7C1878A92500E2781A /* NaiveToken.h */,
+				EBFB1E7D1878A92500E2781A /* NaiveTokenFactory.h */,
+				EBFB1E7E1878A92500E2781A /* NaiveTraverser.h */,
+				EBFB1E7F1878A92500E2781A /* NaiveWME.h */,
+				EBFB1E801878A92500E2781A /* Triple.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		EBFB1E811878A92500E2781A /* Private Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB1E821878A92600E2781A /* IActivationVisitee.h */,
+				EBFB1E831878A92600E2781A /* IActivationVisitor.h */,
+				EBFB1E841878A92600E2781A /* IAlphaHashNetwork.h */,
+				EBFB1E851878A92600E2781A /* IAlphaMemory.h */,
+				EBFB1E861878A92600E2781A /* IAlphaNetworkFactory.h */,
+				EBFB1E871878A92600E2781A /* IAlphaNodeTest.h */,
+				EBFB1E881878A92600E2781A /* IBetaMemory.h */,
+				EBFB1E891878A92600E2781A /* ICondition.h */,
+				EBFB1E8A1878A92600E2781A /* IJoinNode.h */,
+				EBFB1E8B1878A92600E2781A /* IJoinNodeTest.h */,
+				EBFB1E8C1878A92600E2781A /* IProductionModifier.h */,
+				EBFB1E8D1878A92600E2781A /* IProductionNode.h */,
+				EBFB1E8E1878A92600E2781A /* IReteMemory.h */,
+				EBFB1E8F1878A92600E2781A /* IToken.h */,
+				EBFB1E901878A92600E2781A /* ITokenFactory.h */,
+				EBFB1E911878A92600E2781A /* ITuple.h */,
+				EBFB1E921878A92600E2781A /* ITupleTraversee.h */,
+				EBFB1E931878A92600E2781A /* ITupleTraverser.h */,
+				EBFB1E941878A92600E2781A /* IWME.h */,
+			);
+			path = "Private Interfaces";
+			sourceTree = "<group>";
+		};
+		EBFB1E951878A92600E2781A /* Public Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB1E961878A92600E2781A /* ExportedFunctions.h */,
+				EBFB1E971878A92600E2781A /* IProductionSubscriber.h */,
+				EBFB1E981878A92600E2781A /* IReteController.h */,
+			);
+			path = "Public Interfaces";
+			sourceTree = "<group>";
+		};
+		EBFB1E991878A92600E2781A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB1E9A1878A92600E2781A /* NaiveActivationVisitor.cpp */,
+				EBFB1E9B1878A92600E2781A /* NaiveAlphaHashNetwork.cpp */,
+				EBFB1E9C1878A92600E2781A /* NaiveAlphaMemory.cpp */,
+				EBFB1E9D1878A92600E2781A /* NaiveAlphaNetworkFactory.cpp */,
+				EBFB1E9E1878A92600E2781A /* NaiveAlphaNodeTest.cpp */,
+				EBFB1E9F1878A92600E2781A /* NaiveBetaMemory.cpp */,
+				EBFB1EA01878A92600E2781A /* NaiveCondition.cpp */,
+				EBFB1EA11878A92600E2781A /* NaiveJoinNode.cpp */,
+				EBFB1EA21878A92600E2781A /* NaiveJoinNodeTest.cpp */,
+				EBFB1EA31878A92600E2781A /* NaiveProductionModifier.cpp */,
+				EBFB1EA41878A92600E2781A /* NaiveProductionNode.cpp */,
+				EBFB1EA51878A92600E2781A /* NaiveReteController.cpp */,
+				EBFB1EA61878A92600E2781A /* NaiveToken.cpp */,
+				EBFB1EA71878A92600E2781A /* NaiveTokenFactory.cpp */,
+				EBFB1EA81878A92600E2781A /* NaiveTraverser.cpp */,
+				EBFB1EA91878A92600E2781A /* NaiveWME.cpp */,
+				EBFB1EAA1878A92600E2781A /* Triple.cpp */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EBFB1E661878A82F00E2781A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFB1EAB1878A92600E2781A /* NaiveActivationVisitor.h in Headers */,
+				EBFB1EAC1878A92600E2781A /* NaiveAlphaHashNetwork.h in Headers */,
+				EBFB1EAD1878A92600E2781A /* NaiveAlphaMemory.h in Headers */,
+				EBFB1EAE1878A92600E2781A /* NaiveAlphaNetworkFactory.h in Headers */,
+				EBFB1EAF1878A92600E2781A /* NaiveAlphaNodeTest.h in Headers */,
+				EBFB1EB01878A92600E2781A /* NaiveBetaMemory.h in Headers */,
+				EBFB1EB11878A92600E2781A /* NaiveCondition.h in Headers */,
+				EBFB1EB21878A92600E2781A /* NaiveJoinNode.h in Headers */,
+				EBFB1EB31878A92600E2781A /* NaiveJoinNodeTest.h in Headers */,
+				EBFB1EB41878A92600E2781A /* NaiveProductionModifier.h in Headers */,
+				EBFB1EB51878A92600E2781A /* NaiveProductionNode.h in Headers */,
+				EBFB1EB61878A92600E2781A /* NaiveReteController.h in Headers */,
+				EBFB1EB71878A92600E2781A /* NaiveToken.h in Headers */,
+				EBFB1EB81878A92600E2781A /* NaiveTokenFactory.h in Headers */,
+				EBFB1EB91878A92600E2781A /* NaiveTraverser.h in Headers */,
+				EBFB1EBA1878A92600E2781A /* NaiveWME.h in Headers */,
+				EBFB1EBB1878A92600E2781A /* Triple.h in Headers */,
+				EBFB1EBC1878A92600E2781A /* IActivationVisitee.h in Headers */,
+				EBFB1EBD1878A92600E2781A /* IActivationVisitor.h in Headers */,
+				EBFB1EBE1878A92600E2781A /* IAlphaHashNetwork.h in Headers */,
+				EBFB1EBF1878A92600E2781A /* IAlphaMemory.h in Headers */,
+				EBFB1EC01878A92600E2781A /* IAlphaNetworkFactory.h in Headers */,
+				EBFB1EC11878A92600E2781A /* IAlphaNodeTest.h in Headers */,
+				EBFB1EC21878A92600E2781A /* IBetaMemory.h in Headers */,
+				EBFB1EC31878A92600E2781A /* ICondition.h in Headers */,
+				EBFB1EC41878A92600E2781A /* IJoinNode.h in Headers */,
+				EBFB1EC51878A92600E2781A /* IJoinNodeTest.h in Headers */,
+				EBFB1EC61878A92600E2781A /* IProductionModifier.h in Headers */,
+				EBFB1EC71878A92600E2781A /* IProductionNode.h in Headers */,
+				EBFB1EC81878A92600E2781A /* IReteMemory.h in Headers */,
+				EBFB1EC91878A92600E2781A /* IToken.h in Headers */,
+				EBFB1ECA1878A92600E2781A /* ITokenFactory.h in Headers */,
+				EBFB1ECB1878A92600E2781A /* ITuple.h in Headers */,
+				EBFB1ECC1878A92600E2781A /* ITupleTraversee.h in Headers */,
+				EBFB1ECD1878A92600E2781A /* ITupleTraverser.h in Headers */,
+				EBFB1ECE1878A92600E2781A /* IWME.h in Headers */,
+				EBFB1ECF1878A92600E2781A /* ExportedFunctions.h in Headers */,
+				EBFB1ED01878A92600E2781A /* IProductionSubscriber.h in Headers */,
+				EBFB1ED11878A92600E2781A /* IReteController.h in Headers */,
+				EBFB1EE41878A99C00E2781A /* Namespaces.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EBFB1E671878A82F00E2781A /* CPeteRete-Alpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFB1E6C1878A82F00E2781A /* Build configuration list for PBXNativeTarget "CPeteRete-Alpha" */;
+			buildPhases = (
+				EBFB1E641878A82F00E2781A /* Sources */,
+				EBFB1E651878A82F00E2781A /* Frameworks */,
+				EBFB1E661878A82F00E2781A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPeteRete-Alpha";
+			productName = "CPeteRete-Alpha";
+			productReference = EBFB1E681878A82F00E2781A /* libCPeteRete-Alpha.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBFB1E601878A82F00E2781A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Cory Slep";
+			};
+			buildConfigurationList = EBFB1E631878A82F00E2781A /* Build configuration list for PBXProject "CPeteRete-Alpha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBFB1E5F1878A82F00E2781A;
+			productRefGroup = EBFB1E691878A82F00E2781A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBFB1E671878A82F00E2781A /* CPeteRete-Alpha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBFB1E641878A82F00E2781A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFB1ED21878A92600E2781A /* NaiveActivationVisitor.cpp in Sources */,
+				EBFB1ED31878A92600E2781A /* NaiveAlphaHashNetwork.cpp in Sources */,
+				EBFB1ED41878A92600E2781A /* NaiveAlphaMemory.cpp in Sources */,
+				EBFB1ED51878A92600E2781A /* NaiveAlphaNetworkFactory.cpp in Sources */,
+				EBFB1ED61878A92600E2781A /* NaiveAlphaNodeTest.cpp in Sources */,
+				EBFB1ED71878A92600E2781A /* NaiveBetaMemory.cpp in Sources */,
+				EBFB1ED81878A92600E2781A /* NaiveCondition.cpp in Sources */,
+				EBFB1ED91878A92600E2781A /* NaiveJoinNode.cpp in Sources */,
+				EBFB1EDA1878A92600E2781A /* NaiveJoinNodeTest.cpp in Sources */,
+				EBFB1EDB1878A92600E2781A /* NaiveProductionModifier.cpp in Sources */,
+				EBFB1EDC1878A92600E2781A /* NaiveProductionNode.cpp in Sources */,
+				EBFB1EDD1878A92600E2781A /* NaiveReteController.cpp in Sources */,
+				EBFB1EDE1878A92600E2781A /* NaiveToken.cpp in Sources */,
+				EBFB1EDF1878A92600E2781A /* NaiveTokenFactory.cpp in Sources */,
+				EBFB1EE01878A92600E2781A /* NaiveTraverser.cpp in Sources */,
+				EBFB1EE11878A92600E2781A /* NaiveWME.cpp in Sources */,
+				EBFB1EE21878A92600E2781A /* Triple.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EBFB1E6A1878A82F00E2781A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EBFB1E6B1878A82F00E2781A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EBFB1E6D1878A82F00E2781A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBFB1E6E1878A82F00E2781A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBFB1E631878A82F00E2781A /* Build configuration list for PBXProject "CPeteRete-Alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFB1E6A1878A82F00E2781A /* Debug */,
+				EBFB1E6B1878A82F00E2781A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFB1E6C1878A82F00E2781A /* Build configuration list for PBXNativeTarget "CPeteRete-Alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFB1E6D1878A82F00E2781A /* Debug */,
+				EBFB1E6E1878A82F00E2781A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBFB1E601878A82F00E2781A /* Project object */;
+}
